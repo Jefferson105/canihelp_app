@@ -1,0 +1,56 @@
+{
+    "root": true,
+    "parser": "@typescript-eslint/parser",
+    "env": {
+        "browser": true,
+        "node": true,
+        "commonjs": true,
+        "es6": true,
+        "jest": true,
+        "react-native/react-native": true
+    },
+    "extends": ["@react-native", "prettier", "plugin:jest/recommended"],
+    "globals": {
+        "React": "readonly",
+        "jest": "readonly"
+    },
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "project": "./tsconfig.json"
+    },
+    "plugins": [
+        "react",
+        "react-native",
+        "react-hooks",
+        "prettier",
+        "@typescript-eslint"
+    ],
+    "rules": {
+        "strict": 0,
+        "template-curly-spacing": "off",
+        "react/react-in-jsx-scope": "off",
+        "react/jsx-no-undef": "off",
+        "react/jsx-filename-extension": "off",
+        "no-console": "off",
+        "react/no-direct-mutation-state": "off",
+        "react/no-find-dom-node": "off",
+        "no-async-promise-executor": "off",
+        "require-atomic-updates": "off",
+        "no-case-declarations": "off",
+        "react-hooks/exhaustive-deps": "warn",
+        "@typescript-eslint/explicit-module-boundary-types": "off",
+        "@typescript-eslint/no-explicit-any": "off",
+        "prettier/prettier": "error",
+        "react-hooks/rules-of-hooks": "warn",
+        "import/prefer-default-export": "off",
+        "react/prop-types": "off",
+        "react/jsx-props-no-spreading": "off",
+        "@typescript-eslint/camelcase": "off",
+        "import/extensions": "off",
+        "@typescript-eslint/ban-types": "off",
+        "@typescript-eslint/no-shadow": ["off"],
+        "react-native/no-inline-styles": "off"
+    }
+}

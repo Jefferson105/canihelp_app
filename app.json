@@ -1,0 +1,31 @@
+{
+    "name": "canihelp",
+    "slug": "can-i-help",
+    "platforms": ["ios", "android", "web"],
+    "version": "0.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+        "image": "./assets/splash.png",
+        "resizeMode": "cover",
+        "backgroundColor": "#ffffff"
+    },
+    "updates": {
+        "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+        "supportsTablet": true,
+        "bundleIdentifier": "canihelp"
+    },
+    "android": {
+        "package": "com.octupus.canihelp",
+        "googleServicesFile": "./google-services.json"
+    },
+    "description": "Canihelp App",
+    "androidStatusBar": {
+        "backgroundColor": "#F05C26",
+        "barStyle": "light-content"
+    },
+    "owner": "jefferson105"
+}

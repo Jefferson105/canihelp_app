@@ -1,0 +1,7 @@
+node_modules/
+analyse/
+scss/
+static/
+gpat/
+backup/
+.docz/

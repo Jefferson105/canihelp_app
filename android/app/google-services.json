@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "55691043129",
+    "project_id": "canihelp-ga4",
+    "storage_bucket": "canihelp-ga4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:55691043129:android:a4cf0a6aeba80ac00e48e8",
+        "android_client_info": {
+          "package_name": "com.canihelp.octupus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "55691043129-6rerqa7dntao45dgv2okp8a9h1arheug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBn4ciVOQ1t9bOBSIhytNXSYqk3W3SRGrM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "55691043129-6rerqa7dntao45dgv2okp8a9h1arheug.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "55691043129-0psm7ajv3ro0a2c2liok13vubiqmuv2c.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.octupus.canihelp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:55691043129:android:97587871807142a50e48e8",
+        "android_client_info": {
+          "package_name": "com.octupus.canihelp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "55691043129-6rerqa7dntao45dgv2okp8a9h1arheug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBn4ciVOQ1t9bOBSIhytNXSYqk3W3SRGrM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "55691043129-6rerqa7dntao45dgv2okp8a9h1arheug.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "55691043129-0psm7ajv3ro0a2c2liok13vubiqmuv2c.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.octupus.canihelp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

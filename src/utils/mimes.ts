@@ -1,0 +1,20 @@
+export const MIMES = {
+    '.jpg': 'image/jpeg',
+    '.jpeg': 'image/jpeg',
+    '.png': 'image/png',
+    '.heic': 'image/heic',
+    '.webp': 'image/webp',
+    '.mp4': 'video/mp4',
+    '.mov': 'video/quicktime',
+    '.avi': 'video/x-msvideo',
+    '.mkv': 'video/x-matroska',
+    '.mp3': 'audio/mpeg',
+    '.aac': 'audio/x-aac',
+    '.ogg': 'audio/ogg',
+    '.opus': 'audio/ogg',
+    '.m4a': 'audio/mp4',
+    '.flac': 'audio/x-flac',
+    '.wav': 'audio/wav',
+    '.wma': 'audio/x-ms-wma',
+    '.pdf': 'application/pdf'
+};

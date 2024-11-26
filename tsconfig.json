@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "baseUrl": "./src",
+        "target": "es5",
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "resolveJsonModule": true,
+        "allowJs": true,
+        "paths": {
+            "@components/*": ["./components/*"],
+            "@constants/*": ["./constants/*"],
+            "@hooks/*": ["./hooks/*"],
+            "@pages/*": ["./pages/*"],
+            "@context/*": ["./context/*"],
+            "@routes/*": ["./routes/*"],
+            "@services/*": ["./services/*"],
+            "@styles/*": ["./styles/*"],
+            "@ts/*": ["./ts/*"],
+            "@utils/*": ["./utils/*"],
+            "@env": ["../envconfig.js"]
+        }
+    },
+    "exclude": [
+        "node_modules",
+        "backup",
+        "babel.config.js",
+        "metro.config.js",
+        "scripts"
+    ],
+    "include": ["src/**/*", "@types"]
+}

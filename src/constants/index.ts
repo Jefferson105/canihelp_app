@@ -1,0 +1,50 @@
+/* Sent help Status */
+export const HELP_SENT = 'HelpSent-sent';
+export const HELP_SENT_SELECTED = 'HelpSent-selected';
+export const HELP_SENT_REJECTED = 'HelpSent-rejected';
+export const HELP_SENT_CONFIRMATED = 'HelpSent-finish_confirmated';
+export const HELP_SENT_PEDING = 'HelpSent-finish_pending';
+export const HELP_SENT_ANALYSIS = 'HelpSent-under_analysis';
+export const HELP_SENT_EXPIRED = 'HelpSent-expired';
+export const HELP_SENT_FINISHED = 'HelpSent-finished';
+export const HELP_SENT_PROPOSAL = 'HelpSent-proposal';
+export const HELP_SENT_PROPOSAL_READ = 'HelpSent-proposal_read';
+export const HELP_SENT_PROPOSAL_SENT = 'HelpSent-proposal_sent';
+export const HELP_SENT_PROPOSAL_REJECT = 'HelpSent-proposal_rejected';
+
+/* Received help status */
+export const HELP_RECEIVED_ACCEPTED = 'HelpReceived-accepted';
+export const HELP_RECEIVED_SENT = 'HelpReceived-proposal_sent';
+export const HELP_RECEIVED_REJECTED = 'HelpReceived-rejected';
+export const HELP_RECEIVED_PROPOSAL_REJECTED = 'HelpReceived-proposal_rejected';
+export const HELP_RECEIVED_SELECTED = 'HelpReceived-selected';
+export const HELP_RECEIVED_CONFIRMATED = 'HelpReceived-finish_confirmated';
+export const HELP_RECEIVED_PEDING = 'HelpReceived-finish_pending';
+export const HELP_RECEIVED_ANALYSIS = 'HelpReceived-under_analysis';
+export const HELP_RECEIVED_EXPIRED = 'HelpReceived-expired';
+export const HELP_RECEIVED_FINISHED = 'HelpReceived-finished';
+
+/* individual help status */
+export const HELP_INDIVIDUAL_SENT = 'HelpIndividual-sent';
+export const HELP_INDIVIDUAL_READ = 'HelpIndividual-read';
+export const HELP_INDIVIDUAL_ACCEPTED = 'HelpIndividual-accepted';
+export const HELP_INDIVIDUAL_REJECTED = 'HelpIndividual-rejected';
+
+/* Socket subscriptions */
+export const UNLOG = 'UNLOG';
+export const UPDATE_USER = 'UPDATE_USER';
+export const NEW_MESSAGE = 'NEW_MESSAGE';
+export const READ_CONVERSATION = 'READ_CONVERSATION';
+export const NEW_POST = 'NEW_POST';
+export const UPDATE_POST = 'UPDATE_POST';
+export const NEW_COMMENT = 'NEW_COMMENT';
+export const NEW_NOTIFICATION = 'NEW_NOTIFICATION';
+export const NEW_HELP = 'NEW_HELP';
+export const UPDATE_HELP = 'UPDATE_HELP';
+export const NEW_PROPOSAL = 'NEW_PROPOSAL';
+export const UPDATE_PROPOSAL = 'UPDATE_PROPOSAL';
+export const DELETE_POST = 'DELETE_POST';
+export const CLOSE_PROPOSAL = 'CLOSE_PROPOSAL';
+export const CLOSE_HELP = 'CLOSE_HELP';
+export const FINISH_HELP = 'FINISH_HELP';
+export const ACCEPT_HELP = 'ACCEPT_HELP';
